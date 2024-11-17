@@ -49,7 +49,7 @@ git clone https://github.com/PixelOS-Devices/kernel_xiaomi_sm6150.git kernel/xia
 ```
 ### 4.1. Delete `lineage.dependencies` from `/hardware` if present (This file is for if we build on servers)
 
-### 4.2. Things to remember, and check whether source uses common trees or not. Also helpful for beginners to see file structure:
+### 4.2. Things to remember, and check whether source uses common trees or not. Also helpful for beginners to see file structure, aosp or lineage:
 <div align="center">
   <img src="https://github.com/TBS96/aosp_build_guides_sweet/blob/main/AndroidProducts.mk-pixelos_device_xiaomi_sweet.png">
   <img src="https://github.com/TBS96/aosp_build_guides_sweet/blob/main/Android.bp-vendor_xiaomi_sweet.png">
