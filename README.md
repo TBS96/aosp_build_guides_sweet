@@ -46,6 +46,8 @@ git clone https://github.com/PixelOS-AOSP/hardware_xiaomi.git hardware/xiaomi
 ```bash
 git clone https://github.com/PixelOS-Devices/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
 ```
+### 4.1. Delete `lineage.dependencies` from `/hardware` if present (This file is for if we build on servers)
+
 ### `optional:`
 ```bash
 repo sync
