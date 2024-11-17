@@ -1,5 +1,6 @@
 # aosp_build_guides_sweet
 
+
 ## 1. Installing dependencies and Repo:
 ```bash
 sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses libncurses-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
@@ -47,6 +48,12 @@ git clone https://github.com/PixelOS-AOSP/hardware_xiaomi.git hardware/xiaomi
 git clone https://github.com/PixelOS-Devices/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
 ```
 ### 4.1. Delete `lineage.dependencies` from `/hardware` if present (This file is for if we build on servers)
+
+### 4.2. Things to remember, and check whether source uses common trees or not. Also helpful for beginners to see file structure:
+<div align="center">
+  <img src="https://github.com/TBS96/aosp_build_guides_sweet/blob/main/AndroidProducts.mk-pixelos_device_xiaomi_sweet.png">
+  <img src="https://github.com/TBS96/aosp_build_guides_sweet/blob/main/Android.bp-vendor_xiaomi_sweet.png">
+</div>
 
 ### `optional:`
 ```bash
